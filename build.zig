@@ -6,7 +6,7 @@ pub fn build(b: *Builder) void {
     const optimize = b.standardOptimizeOption(.{});
 
     const exe = b.addExecutable(.{
-        .name = "zyphor Repl",
+        .name = "Zyphor Repl",
         .root_source_file = .{ .path = "src/main.zig" },
         .target = target,
         .optimize = optimize,
