@@ -34,3 +34,4 @@ This project is still in its infancy, so expect frequent changes and improvement
    git clone https://github.com/tinix/zyphor.git
    cd zyphor
   zig build
+  
